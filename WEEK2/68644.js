@@ -9,4 +9,5 @@ function solution(numbers) {
   answer = Array.from(new Set(answer)).sort((a, b) => a - b);
   return answer;
 }
+console.log(solution(numbers));
 console.log(solution(numbers2));
